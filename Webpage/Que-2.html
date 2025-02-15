@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIT Warangal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #004080;
+            padding: 10px;
+        }
+        .logo {
+            max-width: 150px;
+        }
+        nav {
+            background: #002050;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .announcements {
+            background: #f8d7da;
+            padding: 10px;
+            font-weight: bold;
+        }
+        .slider {
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .slides img {
+            width: 400px;
+            max-height: 350px;
+        }
+        .news-events, .campus-life {
+            padding: 20px;
+        }
+        .news-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .news-container article {
+            background: #e0e0e0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="nitwlogo.jpg" alt="NITW Logo" class="logo">
+    </header>
+    
+    <nav>
+        <h2>NITW Official Sites</h2>
+    </nav>
+    
+    <section class="announcements">
+        <marquee>Latest Announcements: Admissions Open | Convocation 2025 | Research Grants Available</marquee>
+    </section>
+    
+    <section class="slider">
+        <div class="slides">
+            <img src="h.jpg" alt="Campus View">
+            <img src="library.jpg" alt="Library">
+            <img src="th.jpg" alt="Hostel Area">
+        </div>
+    </section>
+    
+    <section class="news-events">
+        <h2>News & Events</h2>
+        <div class="news-container">
+            <article>Workshop on AI - March 10, 2025</article>
+            <article>Annual Tech Fest - April 5, 2025</article>
+            <article>Guest Lecture on Robotics - Feb 25, 2025</article>
+        </div>
+    </section>
+    
+    <section class="campus-life">
+        <h2>Campus Life</h2>
+        <div class="gallery">
+            <img src="thx.jpg" alt="Campus Image 1">
+            <img src="y.jpg" alt="Campus Image 2">
+            <img src="x.jpg" alt="Campus Image 3">
+        </div>
+    </section>
+</body>
+</html>
